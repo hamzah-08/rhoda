@@ -1,0 +1,178 @@
+body {
+  background-color: #fdf7f6;
+}
+
+p,
+button,
+li,
+a,
+h3,
+label {
+  font-family: "Poppins", sans-serif;
+}
+
+img.iconly-light-arrow-down-2 {
+  width: 10px;
+  height: 10px;
+  margin: 39px 515px 43px 6px;
+  object-fit: contain;
+  background-color: #000;
+}
+
+img.Rhoda-logo {
+  width: 99px;
+  mix-blend-mode: multiply;
+}
+
+.dropdown button::after {
+  content: none;
+}
+
+.featured-content-text,
+.categories-content-text {
+  font-family: PlayfairDisplay;
+  font-size: 36px;
+  color: #a08241;
+}
+
+.content-body {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.logo-brands {
+  width: 114px;
+}
+
+.featured-categories-link {
+  color: black;
+}
+
+.featured-categories-link::after {
+  color: #b38185;
+}
+
+h1 {
+  font-family: PlayfairDisplay;
+  color: white;
+}
+
+.elegance-super-curated {
+  font-family: PlayfairDisplay;
+  color: #a08241;
+  font-size: 53px;
+}
+
+.shop-now-1 {
+  color: white;
+  border: white solid 2px;
+}
+
+.shop-now-2 {
+  color: #b38185;
+  border: #b38185 solid 2px;
+}
+
+.featured-heading {
+  text-align: center;
+}
+
+.featured-border-style {
+  width: 100px;
+  border: 2px solid #b38185;
+  background: #b38185;
+  transform: translateX(157px);
+}
+
+.testimonials-border-style {
+  height: 250px;
+  border-left: 2px solid #a08241;
+}
+
+img.profile-pic {
+  width: 99px;
+}
+
+.page-link {
+  color: #b38185;
+  font-weight: 500;
+}
+
+footer,
+.footer-style {
+  background-color: #b38185;
+  font-family: poppins;
+  color: white;
+}
+
+.birthday-surprise {
+  background-color: #b38185;
+  height: max-content;
+  left: 55%;
+  width: 566px;
+}
+
+.font-style-heading {
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+}
+
+.big-heart-tea-banner {
+  position: absolute;
+  left: 40%;
+  top: auto;
+}
+
+.footer-menu {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.home-banner-image {
+  height: 549px;
+}
+.featured-sec:hover .hover-sec {
+  display: contents;
+}
+.featured-sec .hover-sec {
+  display: none;
+}
+
+.accordion-body {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.accordion-header {
+  border-bottom: #b38185 solid 1px;
+}
+
+.form-control {
+  border: #b38185 solid 2px;
+  border-radius: 0%;
+  height: 60px;
+}
+
+.submit-form {
+  color: white;
+  background: #a08241;
+  border-radius: 0%;
+  border: #a08241 solid 1px;
+}
+
+.submit-form:hover {
+  color: #b38185;
+  background: transparent;
+  border-radius: 0%;
+  border: #b38185 solid 1px;
+}
+
+@media(min-width:1400px) and (max-width:1900px){
+
+.container{
+  max-width: 1198px;
+}
