@@ -1,5 +1,24 @@
+:root{
+  --pink-header: #E6D1D3;
+  --body-bg-color: #FDF7F6;
+  --poppins-font: 'Poppins', sans-serf;
+  --play-fair: 'Playfair Display', serif;
+  --brown-text: #A08241;
+  --dark-rose: #B38185;
+  --secondary-text-color: #797979;
+  --rose: #E4B0B4;
+}
+
 body {
-  background-color: #fdf7f6;
+  background-color: var(--body-bg-color)
+}
+
+.fs-18-px{
+  font-size: 18px;
+}
+
+.fw-500{
+  font-weight: 500;
 }
 
 p,
@@ -8,7 +27,7 @@ li,
 a,
 h3,
 label {
-  font-family: "Poppins", sans-serif;
+  font-family:var(--poppins-font);
 }
 
 img.iconly-light-arrow-down-2 {
@@ -30,9 +49,20 @@ img.Rhoda-logo {
 
 .featured-content-text,
 .categories-content-text {
-  font-family: PlayfairDisplay;
   font-size: 36px;
-  color: #a08241;
+  font-family: var(--play-fair);
+  color: var(--brown-text);
+  text-align: center;
+  padding-bottom: 71px;
+}
+
+.featured-content-text::after{
+  content: "";
+  width: 113px;
+  height: 5px;
+  background: var(--dark-rose);
+  margin: 21px auto;
+  display: flex;
 }
 
 .content-body {
@@ -46,10 +76,15 @@ img.Rhoda-logo {
 
 .featured-categories-link {
   color: black;
-}
+  text-decoration: none;}
 
-.featured-categories-link::after {
-  color: #b38185;
+/* .featured-categories-link::after {
+  color: var(--dark-rose);
+} */
+
+.featured-categories-link:hover {
+  color: var(--dark-rose);
+  text-decoration: underline;
 }
 
 h1 {
@@ -59,8 +94,36 @@ h1 {
 
 .elegance-super-curated {
   font-family: PlayfairDisplay;
-  color: #a08241;
+  color: var(--brown-text);
   font-size: 53px;
+}
+
+.status-div {
+  width: 91px;
+  height: 42px;
+  background: var(--rose);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+.quick-view{
+  border: solid 1.5px var(--dark-rose);
+  color: var(--dark-rose);
+}
+
+.add-to-cart{
+  border: solid 1.5px var(--brown-text);
+  background: var(--brown-text) ;
+  color: white;
+}
+
+.image-hover:hover .button-select {
+bottom: 0px;  
 }
 
 .shop-now-1 {
@@ -69,24 +132,24 @@ h1 {
 }
 
 .shop-now-2 {
-  color: #b38185;
-  border: #b38185 solid 2px;
+  color: var(--dark-rose);
+  border: var(--dark-rose) solid 2px;
 }
 
-.featured-heading {
+/* .featured-heading {
   text-align: center;
 }
 
 .featured-border-style {
   width: 100px;
-  border: 2px solid #b38185;
-  background: #b38185;
+  border: 2px solid var(--dark-rose);
+  background: var(--dark-rose);
   transform: translateX(157px);
-}
+} */
 
 .testimonials-border-style {
   height: 250px;
-  border-left: 2px solid #a08241;
+  border-left: 2px solid var(--brown-text);
 }
 
 img.profile-pic {
@@ -94,19 +157,19 @@ img.profile-pic {
 }
 
 .page-link {
-  color: #b38185;
+  color: var(--dark-rose);
   font-weight: 500;
 }
 
 footer,
 .footer-style {
-  background-color: #b38185;
-  font-family: poppins;
+  background-color: var(--dark-rose);
+  font-family: var(--poppins-font);
   color: white;
 }
 
 .birthday-surprise {
-  background-color: #b38185;
+  background-color: var(--dark-rose);
   height: max-content;
   left: 55%;
   width: 566px;
@@ -133,12 +196,13 @@ footer,
 .home-banner-image {
   height: 549px;
 }
-.featured-sec:hover .hover-sec {
+
+/* .featured-sec:hover .hover-sec {
   display: contents;
 }
 .featured-sec .hover-sec {
   display: none;
-}
+} */
 
 .accordion-body {
   color: black;
@@ -148,31 +212,32 @@ footer,
 }
 
 .accordion-header {
-  border-bottom: #b38185 solid 1px;
+  border-bottom: var(--dark-rose) solid 1px;
 }
 
 .form-control {
-  border: #b38185 solid 2px;
+  border: var(--dark-rose) solid 2px;
   border-radius: 0%;
   height: 60px;
 }
 
 .submit-form {
   color: white;
-  background: #a08241;
+  background: var(--brown-text);
   border-radius: 0%;
-  border: #a08241 solid 1px;
+  border: var(--brown-text) solid 1px;
 }
 
 .submit-form:hover {
-  color: #b38185;
+  color: var(--dark-rose);
   background: transparent;
   border-radius: 0%;
-  border: #b38185 solid 1px;
+  border: var(--dark-rose) solid 1px;
 }
 
 @media(min-width:1400px) and (max-width:1900px){
 
 .container{
   max-width: 1198px;
+}
 }
