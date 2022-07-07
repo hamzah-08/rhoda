@@ -1,23 +1,23 @@
-:root{
-  --pink-header: #E6D1D3;
-  --body-bg-color: #FDF7F6;
-  --poppins-font: 'Poppins', sans-serf;
-  --play-fair: 'Playfair Display', serif;
-  --brown-text: #A08241;
-  --dark-rose: #B38185;
+:root {
+  --pink-header: #e6d1d3;
+  --body-bg-color: #fdf7f6;
+  --poppins-font: "Poppins", sans-serf;
+  --play-fair: "Playfair Display", serif;
+  --brown-text: #a08241;
+  --dark-rose: #b38185;
   --secondary-text-color: #797979;
-  --rose: #E4B0B4;
+  --rose: #e4b0b4;
 }
 
 body {
-  background-color: var(--body-bg-color)
+  background-color: var(--body-bg-color);
 }
 
-.fs-18-px{
+.fs-18-px {
   font-size: 18px;
 }
 
-.fw-500{
+.fw-500 {
   font-weight: 500;
 }
 
@@ -27,7 +27,12 @@ li,
 a,
 h3,
 label {
-  font-family:var(--poppins-font);
+  font-family: var(--poppins-font);
+}
+
+.image-specs{
+  width: 100%;
+  object-fit: cover;
 }
 
 img.iconly-light-arrow-down-2 {
@@ -43,6 +48,14 @@ img.Rhoda-logo {
   mix-blend-mode: multiply;
 }
 
+.collection-images-style{
+    font-family: var(--play-fair);
+    height: 5px;
+    transform: translate(25px, -85px);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
 .dropdown button::after {
   content: none;
 }
@@ -56,7 +69,7 @@ img.Rhoda-logo {
   padding-bottom: 71px;
 }
 
-.featured-content-text::after{
+.featured-content-text::after {
   content: "";
   width: 113px;
   height: 5px;
@@ -76,7 +89,8 @@ img.Rhoda-logo {
 
 .featured-categories-link {
   color: black;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 /* .featured-categories-link::after {
   color: var(--dark-rose);
@@ -111,19 +125,19 @@ h1 {
   left: 0;
 }
 
-.quick-view{
+.quick-view {
   border: solid 1.5px var(--dark-rose);
   color: var(--dark-rose);
 }
 
-.add-to-cart{
+.add-to-cart {
   border: solid 1.5px var(--brown-text);
-  background: var(--brown-text) ;
+  background: var(--brown-text);
   color: white;
 }
 
 .image-hover:hover .button-select {
-bottom: 0px;  
+  bottom: 0px;
 }
 
 .shop-now-1 {
@@ -159,6 +173,14 @@ img.profile-pic {
 .page-link {
   color: var(--dark-rose);
   font-weight: 500;
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+
+.page-link:hover {
+  color: var(--dark-rose);
+  transform: scale(1.1);
+  filter: brightness(110%);
 }
 
 footer,
@@ -171,8 +193,8 @@ footer,
 .birthday-surprise {
   background-color: var(--dark-rose);
   height: max-content;
-  left: 52%;
-  width: 566px;
+  left: 50%;
+  width: 575px;
 }
 
 .font-style-heading {
@@ -187,10 +209,54 @@ footer,
   top: auto;
 }
 
+.footer-title{
+ font-size: 34px; 
+}
+
+h5 {
+  font-size: 17px;
+}
+
 .footer-menu {
   color: white;
-  list-style-type: none;
   text-decoration: none;
+  font-weight: 300;
+}
+
+.footer-menu:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-style {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.newsletter-placeholder {
+  width: 210px;
+  color: white;
+  background: transparent;
+  outline: none;
+  font-weight: 300;
+  border: none;
+}
+
+.newsletter-border {
+  border-bottom: solid 1px white;
+  padding-right: 30px;
+}
+
+.footer-brown-border{
+  border-top: solid 1px #402c2e;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
 }
 
 .home-banner-image {
@@ -235,9 +301,8 @@ footer,
   border: var(--dark-rose) solid 1px;
 }
 
-@media(min-width:1400px) and (max-width:1900px){
-
-.container{
-  max-width: 1198px;
-}
+@media (min-width: 1400px) and (max-width: 1900px) {
+  .container {
+    max-width: 1198px;
+  }
 }
