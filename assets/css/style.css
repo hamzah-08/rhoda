@@ -30,7 +30,7 @@ label {
   font-family: var(--poppins-font);
 }
 
-.image-specs{
+.image-specs {
   width: 100%;
   object-fit: cover;
 }
@@ -48,14 +48,13 @@ img.Rhoda-logo {
   mix-blend-mode: multiply;
 }
 
-.collection-images-style{
-    font-family: var(--play-fair);
-    height: 5px;
-    transform: translate(25px, -85px);
-    color: white;
-    font-size: 20px;
-    font-weight: normal;
+.collection-images-style {
+  height: 5px;
+  transform: translate(25px, -85px);
+  color: white;
+  font-size: 20px;
 }
+
 .dropdown button::after {
   content: none;
 }
@@ -209,8 +208,8 @@ footer,
   top: auto;
 }
 
-.footer-title{
- font-size: 34px; 
+.footer-title {
+  font-size: 34px;
 }
 
 h5 {
@@ -248,7 +247,7 @@ h5 {
   padding-right: 30px;
 }
 
-.footer-brown-border{
+.footer-brown-border {
   border-top: solid 1px #402c2e;
 }
 
