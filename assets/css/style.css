@@ -49,10 +49,13 @@ img.Rhoda-logo {
 }
 
 .collection-images-style {
-  height: 5px;
-  transform: translate(25px, -85px);
   color: white;
   font-size: 20px;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  bottom: 26px;
+  left: 33px;
 }
 
 .dropdown button::after {
