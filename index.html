@@ -20,10 +20,10 @@
 
   <!-- Style sheets -->
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="css/style-md.css" />
-  <link rel="stylesheet" href="css/style-xl.css" />
-  <link rel="stylesheet" href="css/style-lg.css" />
-  <link rel="stylesheet" href="css/style-sm.css" />
+  <link rel="stylesheet" href="assets/css/style-md.css" />
+  <link rel="stylesheet" href="assets/css/style-xl.css" />
+  <link rel="stylesheet" href="assets/css/style-lg.css" />
+  <link rel="stylesheet" href="assets/css/style-sm.css" />
 
   <title>Home</title>
 </head>
@@ -160,19 +160,14 @@
     <!-- <img class="pb-3" src="assets/images/home-banner.png" alt="Imgage of Some products"> -->
   </div>
 
-  <div class="container">
+  <!-- <div class="container"> -->
 
-    <!-- Section 1 -->
+  <!-- Section 1 -->
+  <section class="container">
+    <!-- Title -->
+    <p class="featured-content-text mb-0" style="padding-bottom: 54px; padding-top: 81px;">Featured Collections</p>
 
-
-
-
-
-    <section class="container">
-      <!-- Title -->
-      <p class="featured-content-text mb-0" style="padding-bottom: 54px; padding-top: 81px;">Featured Collections</p>
-
-      <!-- <div class="featured-heading row pt-5">
+    <!-- <div class="featured-heading row pt-5">
       <div class="col-md-4 featured-content-text text-center">
         Featured Collections
         <div class="featured-border-style"></div>
@@ -180,70 +175,122 @@
 
       </div> -->
 
-      <!-- collection Images -->
-      <!-- put all the images in ratios -->
-      <div class="row">
-        <div class="col-6 px-0">
-          <div class="position-relative ">
-            <div class="ratio ratio-16x9 ">
-              <img class="food-for-thought w-100" src="assets/images/food-for-thought-collection.png"
-                alt="food for thought image for featured collection">
+    <!-- collection Images -->
+    <div class="row g-2 pb-4 mb-5">
+      <div class="col-md-6">
+        <div class="row gy-3">
+          <div class="col-12 position-relative ">
+            <img class="food-for-thought image-specs" src="assets/images/food-for-thought-collection.png"
+              alt="food for thought image for featured collection">
+            <div class="position-absolute bottom-0 text-white p-3 p-lg-4 m-2 m-lg-2">
+              <p class="fw-normal fs-5 lh-1" style="font-family: var(--play-fair) ;"> Food for Thought</p>
+              <p class="fw-light fs-6 lh-1 mb-0"> Collection</p>
             </div>
-            <div class="collection-images-style">
-              <span class="">
-                <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Food for Thought</p>
-              </span>
-              <span class="">
-                <p class="fw-light" style="font-size: 16px;"> Collection</p>
-              </span>
-            </div>
-            <!-- <div class="collection-images-style postion-absolute">
-              <p class="fw-normal m-0" style="font-family: var(--play-fair) ;">Food for Thought</p>
-              <p class="fw-light m-0" style="font-size: 16px; font-family: var(--play-fair);">Collection</p>
-            </div> -->
           </div>
-
-          <div class="position-relative">
-            <div class="ratio ratio-16x9">
-              <img class="mothers-special w-100 my-3" src="assets/images/mothers-special-collection.png"
-                alt="Mothers Special for featured collection">
-            </div>
-            <div class="collection-images-style">
-              <span class="">
-                <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Mothers Special</p>
-              </span>
-              <span class="">
-                <p class="fw-light" style="font-size: 16px;"> Collection</p>
-              </span>
+          <div class="col-12 position-relative">
+            <img class="mothers-special image-specs" src="assets/images/mothers-special-collection.png"
+              alt="Mothers Special for featured collection">
+            <div class="position-absolute bottom-0 text-white p-3 p-lg-4 m-2 m-lg-2">
+              <p class="fw-normal fs-5 lh-1" style="font-family: var(--play-fair) ;"> Food for Thought</p>
+              <p class="fw-light fs-6 lh-1 mb-0"> Collection</p>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <img class="boys-to-men-xx image-specs" src="assets/images/boys-to-men-xx-collection.png"
+          alt="Boys to Men XX image for featured collection">
+        <div class="position-absolute bottom-0 text-white p-3 p-lg-4 m-2 m-lg-2">
+          <p class="fw-normal fs-5 lh-1" style="font-family: var(--play-fair) ;"> Food for Thought</p>
+          <p class="fw-light fs-6 lh-1 mb-0"> Collection</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="col-6 px-0">
-          <div class="position-relative">
-            <div>
-              <img class="boys-to-men-xx w-100 ms-3" src="assets/images/boys-to-men-xx-collection.png"
-                alt="Boys to Men XX image for featured collection">
-            </div>
-            <div class="collection-images-style mx-4 my-3">
-              <span class="">
-                <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Boys to Men XX</p>
-              </span>
-              <span class="">
-                <p class="fw-light" style="font-size: 16px;"> Collection</p>
-              </span>
-            </div>
+
+  <!-- <section class="container pb-4 mb-5">
+    <div class="row">
+      <div class="col-6 px-0">
+        <div class="position-relative ">
+          <div class="ratio ratio-16x9 ">
+            <img class="food-for-thought w-100" src="assets/images/food-for-thought-collection.png"
+              alt="food for thought image for featured collection">
+          </div>
+          <div class="collection-images-style">
+            <span class="">
+              <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Food for Thought</p>
+            </span>
+            <span class="">
+              <p class="fw-light" style="font-size: 16px;"> Collection</p>
+            </span>
           </div>
         </div>
 
+        <div class="position-relative">
+          <div class="ratio ratio-16x9">
+            <img class="mothers-special w-100 my-3" src="assets/images/mothers-special-collection.png"
+              alt="Mothers Special for featured collection">
+          </div>
+          <div class="collection-images-style">
+            <span class="">
+              <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Mothers Special</p>
+            </span>
+            <span class="">
+              <p class="fw-light" style="font-size: 16px;"> Collection</p>
+            </span>
+          </div>
+        </div>
+      </div>
 
-        <!-- birthday surprise section -->
-        <!-- <div class="row">
+      <div class="col-6 px-0">
+        <div class="position-relative">
+          <div>
+            <img class="boys-to-men-xx w-100 ms-3" src="assets/images/boys-to-men-xx-collection.png"
+              alt="Boys to Men XX image for featured collection">
+          </div>
+          <div class="collection-images-style mx-4 my-3">
+            <span class="">
+              <p class="fw-normal m-0" style="font-family: var(--play-fair) ;"> Boys to Men XX</p>
+            </span>
+            <span class="">
+              <p class="fw-light" style="font-size: 16px;"> Collection</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- birthday surprise section -->
+  <Section class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="overlap-image ratio ratio-1x1">
+          <img src="assets/images/bitmap-collection.png" alt="Bitmap image for featured collection">
+        </div>
+      </div>
+      <div class="col-lg-6" style="z-index: 1;">
+        <div class="py-4 text-white text-center" style="background :var(--dark-rose) ;">
+          <div class="col-11 col-md-8 mx-auto"></div>
+          <p class="title-common mb-1">Birthday Surprise</p>
+          <p class="fw-200 mb-4">Celebrate with Elegance</p>
+          <p class="fw-200 mb-4">Paullum deliquit, ponderibus modulisque suis ratio utitur. Contra legem facit qui
+            id facit quod lex
+            prohibet.</p>
+          <a href="" class="shop-now-1 btn text-white" role="button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+
+  <!-- <div class="row">
           <div class="col-md-8 ps-2 py-3 position-relative">
             <img class="bitmap pt-5 image-specs" src="assets/images/bitmap-collection.png"
               alt="Bitmap image for featured collection">
           </div>
-          <div class="col-md-4 d-flex align-items-center">
+          <div class="col-md-4 d-flex align-items- center">
             <div class="birthday-surprise pb-4 pt-4 px-5 text-center position-absolute">
               <h1 class="">Birthday Surprise</h1>
               <h3 class="font-style-heading justify-content-center my-3">Celebrate with Elegance</h3>
@@ -255,125 +302,108 @@
 
         </div>
       </div> -->
-    </section>
+  </section>
 
-    <!-- Section 2 -->
-    <section class="container">
-      <p class="featured-content-text" style="padding-top: 136px;">Brands Featured</p>
-
-
-      <!-- <div class="featured-heading row pt-5">
-      <div class="col-md-4 featured-content-text text-center">
-        Brands Featured
-        <div class="featured-border-style"></div>
+  <!-- Section 2 -->
+  <section class="container">
+    <p class="featured-content-text" style="padding-top: 136px;">Brands Featured</p>
+    <div class="row align-items-center">
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/bath-and-body-works-brand-logo.png" alt="">
       </div>
-    </div> -->
-
-      <div class="row">
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/bath-and-body-works-brand-logo.png" alt="">
-        </div>
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/logo-brand-logo.svg" alt="">
-        </div>
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/logo-ipsum-brand-logo.svg" alt="">
-        </div>
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/big-heart-tea-co-brand-logo.png" alt=""
-            style="mix-blend-mode: multiply;">
-        </div>
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/chanel-brand-logo.png" alt="">
-        </div>
-        <div class="col-md-4 col-xl-2 m-0 p-0">
-          <img class="logo-brands" src="assets/images/brands/zippo-brand-logo.png" alt="">
-        </div>
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/logo-brand-logo.svg" alt="">
       </div>
-    </section>
-    <!-- Section 3 -->
-    <section class="container">
-      <p class="featured-content-text" style="padding-top: 136px;">Featured Categories</p>
-
-
-      <!-- <div class="featured-heading row pt-5">
-      <div class="col-md-4 featured-content-text text-center">
-        Featured Categories
-        <div class="featured-border-style"></div>
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/logo-ipsum-brand-logo.svg" alt="">
       </div>
-    </div> -->
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/big-heart-tea-co-brand-logo.png" alt=""
+          style="mix-blend-mode: multiply;">
+      </div>
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/chanel-brand-logo.png" alt="">
+      </div>
+      <div class="col-md-4 col-xl-2 m-0 p-0">
+        <img class="logo-brands" src="assets/images/brands/zippo-brand-logo.png" alt="">
+      </div>
+    </div>
+  </section>
 
-      <div class="row">
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For
-              Her</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Weddings</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Corporate</a>
-          </div>
-        </div>
-        <!-- </div> -->
+  <!-- Section 3 -->
+  <section class="container ">
+    <p class="featured-content-text" style="padding-top: 138px;">Featured Categories</p>
 
-        <!-- <div class="row"> -->
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Me</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Him</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-4">
-          <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
-          <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#"> For Casual</a>
-          </div>
+    <div class="row">
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For
+            Her</a>
         </div>
       </div>
-    </section>
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Weddings</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Corporate</a>
+        </div>
+      </div>
+      <!-- </div> -->
 
-    <!-- Section 4 -->
-    <!-- <div class="row">
+      <!-- <div class="row"> -->
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Me</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#">For Him</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4">
+        <img class="image-specs" src="assets/images/featured-categories-product.png" alt="">
+        <div class="pb-5 pt-4 text-center"><a class="featured-categories-link" href="#"> For Casual</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4 -->
+  <section class="container">
+    <div class="row">
       <div class="col-12">
         <img class="image-specs" src="assets/images/elegance-super-banner.png" alt="">
       </div>
-      <div class="big-heart-tea-banner col-auto mt-5">
+      <div class="big-heart-tea-banner col-6 col-lg-5 me-md-5 mt-lg-5 mt-md-5 pt-4 pt-md-5">
         <img class="image-specs" src="assets/images/big-heart-tea-banner.png" alt="">
       </div>
-    </div> -->
+    </div>
+  </section>
 
-    <!-- Shop now section -->
-    <!-- <div class="pt-4 pb-5 row">
-      <div class="col">
-        <h1 class="elegance-super-curated ms-3 pt-4 pb-3">Elegance Super <br>
-          Curated</h1>
-        <p class="ms-3">
-          Paullum deliquit, ponderibus modulisque suis ratio utitur.
-          <br> Contra legem facit qui id facit quod lex prohibet. Paullum <br> deliquit ponderibus modulisque suis ratio
-          utitur.
-        </p>
-        <button class="shop-now-2 bg-transparent ms-3">Shop Now</button>
-      </div>
-      <div class="col">
+  <!-- Shop now section -->
+  <section class="container">
+    <div class="col-md-5 pt-4 pb-5 ">
+      <h1 class="elegance-super-curated ms-3 pt-4 pb-3">Elegance Super <br>
+        Curated</h1>
+      <p class="ms-3">
+        Paullum deliquit, ponderibus modulisque suis ratio utitur.
+        <br> Contra legem facit qui id facit quod lex prohibet. Paullum <br> deliquit ponderibus modulisque suis ratio
+        utitur.
+      </p>
+      <a href="" role="button" class="btn shop-now-2 bg-transparent ms-3">Shop Now</a>
+    </div>
+  </section>
 
-      </div>
-    </div> -->
-
-    <!-- Section 5 -->
+  <!-- Section 5 -->
 
 
 
 
-    <!-- <div class="featured-heading row">
+  <!-- <div class="featured-heading row">
       <div class="col-md-4 featured-content-text text-center">
         Featured
         <div class="featured-border-style"></div>
@@ -381,7 +411,7 @@
       </div> -->
 
 
-    <!-- <div class="row">
+  <!-- <div class="row">
         <div class="col featured-sec">
           <div class="">
             <img src="assets/images/featured-product.png" alt="">
@@ -396,158 +426,158 @@
               </div>
             </div>
           </div> -->
-    <section class="container">
-      <p class="featured-content-text">Featured</p>
+  <section class="container">
+    <p class="featured-content-text" style="padding-top: 144px;">Featured</p>
 
-      <!-- products -->
-      <div class="row">
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
+    <!-- products -->
+    <div class="row">
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
           </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
+          <div class="ratio ratio-1x1">
+            <img src="assets/images/featured-product.png" alt="">
           </div>
 
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
         </div>
 
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
       </div>
-    </section>
 
-    <!-- <div class="hover-sec">
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="hover-sec">
             <div class="">
               <div class="col">
                 <button>Quick View</button>
@@ -561,325 +591,325 @@
 
 
 
-    <!-- Section 6 -->
-    <section class="container mb-5 pb-5">
-      <p class="featured-content-text">New Products</p>
+  <!-- Section 6 -->
+  <section class="container mb-5 pb-5">
+    <p class="featured-content-text" style="padding-top: 94px;">New Products</p>
 
-      <!-- products line-->
-      <div class="row">
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
+    <!-- products line-->
+    <div class="row">
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
           </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
           </div>
 
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
         </div>
 
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">Sale</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
-
-        <div class="col-md-4 col-xl-3 mb-4">
-          <div class="mb-4 position-relative image-hover overflow-hidden">
-            <div class="status-div">
-              <span class="small" style="color: white;">New</span>
-            </div>
-            <div class="ratio ratio-1x1">
-              <img class="image-specs" src="assets/images/featured-product.png" alt="">
-            </div>
-
-            <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="quick-view text-center p-2 ">
-                    <span class="fw-500">Quick View</span>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col pb-2 pt-1">
-                <a href="" class="text-decoration-none">
-                  <div class="add-to-cart text-center p-2">
-                    <span class="fw-500">Add to Cart</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="">
-            <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
-            <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
-            <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
-            <p class="fw-light">Loreal, Spa Ceylon</p>
-          </div>
-
-        </div>
       </div>
-    </section>
 
-    <!-- Section 7 -->
-    <!-- <section> -->
-    <!-- <div class="featured-heading row">
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">Sale</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-xl-3 mb-4">
+        <div class="mb-4 position-relative image-hover overflow-hidden">
+          <div class="status-div">
+            <span class="small" style="color: white;">New</span>
+          </div>
+          <div class="ratio ratio-1x1">
+            <img class="image-specs" src="assets/images/featured-product.png" alt="">
+          </div>
+
+          <div class="row button-select position-absolute bg-white mx-0 w-100 gx-2 p-2">
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="quick-view text-center p-2 ">
+                  <span class="fw-500">Quick View</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col pb-2 pt-1">
+              <a href="" class="text-decoration-none">
+                <div class="add-to-cart text-center p-2">
+                  <span class="fw-500">Add to Cart</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="mb-0 fs-18-px fw-light">Face Glow Routine 01</p>
+          <p class="fw-light" style="color: var(--secondary-text-color);">Gift Pack</p>
+          <p class="mb-2 fw-500" style="color:var(--dark-rose) ;">$260.00</p>
+          <p class="fw-light">Loreal, Spa Ceylon</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7 -->
+  <!-- <section> -->
+  <!-- <div class="featured-heading row">
         <div class="col-md-4 featured-content-text text-center py-5">
           Testimonials
           <div class="featured-border-style"></div>
         </div>
       </div> -->
 
-    <!-- Testimonials section -->
-    <!-- Title -->
-    <!-- <p class="featured-content-text">Testimonials</p>
+  <!-- Testimonials section -->
+  <!-- Title -->
+  <!-- <p class="featured-content-text">Testimonials</p>
 
       <div class="row"> -->
 
-    <!-- Profile pic -->
-    <!-- <div class="col-2">
+  <!-- Profile pic -->
+  <!-- <div class="col-2">
           <img class="profile-pic image-specs" src="assets/images/testimonials-profile.png" alt="">
         </div> -->
 
 
-    <!-- Profile Description -->
-    <!-- <div class="col">
+  <!-- Profile Description -->
+  <!-- <div class="col">
           <p>Fabio vel iudice vincam, sunt in culpa qui officia.
             Unam incolunt Belgae, aliam Aquitani, tertiam.
             Praeterea iter est quasdam res quas ex communi.
@@ -889,14 +919,14 @@
           <p style="color: var(--dark-rose);">Amy Joanne</p>
         </div>-->
 
-    <!-- Border style -->
-    <!-- <div class="testimonials-border-style col-2"> -->
-    <!-- Profile pic -->
-    <!-- <img class="profile-pic image-specs" src="assets/images/testimonials-profile.png" alt="">
+  <!-- Border style -->
+  <!-- <div class="testimonials-border-style col-2"> -->
+  <!-- Profile pic -->
+  <!-- <img class="profile-pic image-specs" src="assets/images/testimonials-profile.png" alt="">
         </div> -->
 
-    <!-- Profile Description -->
-    <!-- <div class="col">
+  <!-- Profile Description -->
+  <!-- <div class="col">
           <p>Fabio vel iudice vincam, sunt in culpa qui officia.
             Unam incolunt Belgae, aliam Aquitani, tertiam.
             Praeterea iter est quasdam res quas ex communi.
@@ -908,8 +938,8 @@
       </div>
     </section> -->
 
-    <!-- Pagination -->
-    <!-- <div class="row py-3 pb-5">
+  <!-- Pagination -->
+  <!-- <div class="row py-3 pb-5">
       <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
           <li class="page-item"><a class="page-link bg-transparent border-0" href="#">Previous</a></li>
@@ -919,34 +949,210 @@
       </div>-->
   </div>
 
-  <footer>
-    <div class="container">
+  <footer class="pb-5">
+    <section class="container">
+      <!-- Footer Title -->
+      <div class="row py-5">
+        <div class="col">
+          <p class="mb-0 lh-1 fs-2 text-white" style="font-family: var(--play-fair);">Rhoda</p>
+        </div>
+      </div>
+      <!-- /Footer Title -->
 
-      <section class="footer">
-        <!-- Footer title -->
-        <div class="row">
-          <h1 class="footer-title py-3 px-0 ">Rhoda</h1>
+
+      <div class="row justify-content-between pb-1 gy-3">
+        <!-- SL, Australia Col -->
+        <div class="col-md-9 col-xl-2 pe-xl-5 order-0">
+          <div class="row gx-4 gy-3">
+            <!-- Sri Lanka section -->
+            <div class="col col-xl-12">
+              <p class="heading">Sri Lanka</p>
+              <p class="footer-style">93, Thimbirigasyaya <br> Road, Colombo 05, <br> Sri Lanka </p>
+              <ul>
+                <li><a href="tel:+94 777554719">+94 777554719</a></li>
+                <li><a href="tel:+94 777672343">+94 777672343</a></li>
+              </ul>
+            </div>
+            <!--/ Sri Lanka section -->
+
+            <!-- Australia section -->
+            <div class="col col-xl-12">
+              <p class="heading">Australia</p>
+              <p class="footer-style">189, Adelaide <br> Terrace, East Perth, <br> Western Australia, <br> 6004 </p>
+              <ul>
+                <li><a href="tel:+61452 664 719">+61452 664 719</a></li>
+              </ul>
+            </div>
+            <!--/ Australia section -->
+          </div>
+        </div>
+        <!--/ SL, Australia Col -->
+
+        <!-- Menu section -->
+        <div class="col-6 col-md-3 col-xl-auto order-2 order-md-1">
+          <p class="heading mb-4">Menu</p>
+          <ul>
+            <li><a class="" href="#">Home</a></li>
+            <li><a class="" href="#">About us</a></li>
+            <li><a class="" href="#">Coroporate Gifting</a></li>
+            <li><a class="" href="#">FAQs</a></li>
+            <li><a class="" href="#">Contact us</a></li>
+            <li><a class="" href="#">Shipping and Returns</a></li>
+          </ul>
+        </div>
+        <!--/ Menu section -->
+
+        <!-- Shop section -->
+        <div class="col-6 col-md-auto order-1">
+          <p class="heading mb-4">Shop</p>
+          <ul>
+            <li><a class="" href="#">For Her </a></li>
+            <li><a class="" href="#">For Him </a></li>
+            <li><a class="" href="#">For Them</a></li>
+            <li><a class="" href="#">Newborn Baby </a></li>
+            <li><a class="" href="#">Thank You </a></li>
+            <li><a class="" href="#">Get Well Soon </a></li>
+            <li><a class="" href="#">Gourmet Food </a></li>
+            <li><a class="" href="#">Hampers </a></li>
+            <li><a class="" href="#">Mother’s Day </a></li>
+            <li><a class="" href="#">Father’s Day </a></li>
+            <li><a class="" href="#">Valentine’s Day </a></li>
+            <li><a class="" href="#">Easter </a></li>
+            <li><a class="" href="#">Christmas</a></li>
+          </ul>
+        </div>
+        <!--/ Shop section -->
+
+        <!-- Wedding section -->
+        <div class="col-auto order-3">
+          <p class="heading mb-4">Wedding</p>
+          <ul>
+            <li><a class="" href="#">Bridal Party & Groomsmen </a></li>
+            <li><a class="" href="#">Robes </a></li>
+            <li><a class="" href="#"> Wedding Gifts</a></li>
+          </ul>
+        </div>
+        <!--/ Wedding section -->
+
+        <!-- Newsletter section, Email section -->
+        <div class="col-md-5 col-xl-3 order-4">
+          <div class="row">
+            <div class="col-12 mb-5">
+              <p class="heading mb-4">Newsletter</p>
+              <div class="input-group border-bottom border-2 border-light pb-1">
+                <span class="input-group-text ps-0" id="email"><img src="assets/images/iconly-light-email.svg" alt="mail icon"></span>
+                <input type="email" class="form-control" placeholder="Enter Your Email Address" aria-describedby="email">
+              </div>
+
+            </div>
+            <div class="col-12 mb-5">
+              <p class="heading mb-4">Location</p>
+              <div class="input-group border-bottom border-2 border-light pb-1">
+                <label class="input-group-text ps-0" for="location-select"><img src="assets/images/iconly-light-location-white.svg" alt=""></label>
+                <select class="form-select" id="location-select">
+                  <option selected>Sri Lanka</option>
+                  <option value="1">Australia</option>
+                  <option value="2">India</option>
+                  <option value="3">Sweden</option>
+                </select>
+              </div>
+
+            </div>
+            <div class="col-12 mb-5">
+              <p class="heading mb-4">Follow Us</p>
+              <div class="row gx-3">
+                <div class="col-auto">
+                  <a href="">
+                    <img src="assets/images/social-media-icons/facebook-icon.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="assets/images/social-media-icons/twitter-icon.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="assets/images/social-media-icons/instagram-icon.svg" alt="">
+                  </a>
+                  <a href="">
+                    <img src="assets/images/social-media-icons/email-icon.svg" alt="">
+                  </a>
+                </div>
+
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+        <!--/ Newsletter section, Email section -->
+      </div>
+
+      <hr>
+      <div class="row py-2 py-md-3 gy-3 align-items-center">
+        <div class="col-md">
+          <div class="row">
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+            <div class="col-auto">
+              <img src="./assets/images/social-media-icons/facebook-icon.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-auto">
+          <p class="mb-0">Rhoda Co.
+            2021</p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row mt-4 mt-md-0">
+        <div class="col">
+          <p class="mb-0">Powered by <br> BigCommerce</p>
+        </div>
+      </div>
+
+
+      <!-- <div class="footer"> -->
+      <!-- Footer title -->
+      <!-- <div class="row">
+          <h1 class="footer-title py-5 px-0 ">Rhoda</h1>
         </div>
         <div class="row">
           <div class="col mx-0 px-0">
-            <div>
-              <!-- Sri Lanka section -->
-              <h5>Sri Lanka</h5>
+            <div> -->
+      <!-- Sri Lanka section -->
+      <!-- <h5>Sri Lanka</h5>
               <p class="footer-style">93, Thimbirigasyaya <br> Road, Colombo 05, <br> Sri Lanka </p>
-              <p class="footer-style">+94 777554719 <br>
-                +94 777672343</p>
+              <p class="footer-style my-0">+94 777554719</p>
+              <p class="footer-style">+94 777672343</p>
             </div>
-            <div class="pt-4">
-              <!-- Australia section -->
-              <h5>Australia</h5>
+            <div class="pt-4"> -->
+      <!-- Australia section -->
+      <!-- <h5>Australia</h5>
               <p class="footer-style">189, Adelaide <br> Terrace, East Perth, <br> Western Australia, <br> 6004 </p>
               <p class="footer-style">+61452 664 719</p>
             </div>
           </div>
 
-          <div class="col mx-0 px-0">
-            <!-- Menu section -->
-            <h5>Menu</h5>
+          <div class="col mx-0 px-0"> -->
+      <!-- Menu section -->
+      <!-- <h5>Menu</h5>
             <div class="footer-style">
               <li><a class="footer-menu" href="#">Home</a></li>
               <li><a class="footer-menu" href="#">About us</a></li>
@@ -955,10 +1161,10 @@
               <li><a class="footer-menu" href="#">Contact us</a></li>
               <li><a class="footer-menu" href="#">Shipping and Returns</a></li>
             </div>
-          </div>
+          </div> -->
 
-          <!-- Shop section -->
-          <div class="col mx-0 px-0">
+      <!-- Shop section -->
+      <!-- <div class="col mx-0 px-0">
             <h5>Shop</h5>
             <div class="footer-style">
               <li><a class="footer-menu" href="#">For Her </a></li>
@@ -975,10 +1181,10 @@
               <li><a class="footer-menu" href="#">Easter </a></li>
               <li><a class="footer-menu" href="#">Christmas</a></li>
             </div>
-          </div>
+          </div> -->
 
-          <!-- Wedding section -->
-          <div class="col mx-0 px-0">
+      <!-- Wedding section -->
+      <!-- <div class="col mx-0 px-0">
             <h5>Wedding</h5>
             <div class="footer-style">
               <li><a class="footer-menu" href="#">Bridal Party & Groomsmen </a></li>
@@ -986,9 +1192,9 @@
               <li><a class="footer-menu" href="#"> Wedding Gifts</a></li>
             </div>
           </div>
-
-          <!-- Newsletter section, Email section -->
-          <div class="col mx-0 px-0">
+ -->
+      <!-- Newsletter section, Email section -->
+      <!-- <div class="col mx-0 px-0">
             <h5>Newsletter</h5>
             <div class="row newsletter-border mx-0">
               <img class="col-auto mx-0 pb-2 px-0 w-auto" src="assets/images/iconly-light-email.svg" alt="">
@@ -996,15 +1202,15 @@
                 <input class="newsletter-placeholder pb-2 mb-1 ps-2" type="email" id="myEmail"
                   placeholder="Enter Your Email Address">
               </div>
-            </div>
+            </div> -->
 
-            <!-- Location dropdown  -->
-            <h5 class="pt-5">Loaction</h5>
+      <!-- Location dropdown  -->
+      <!-- <h5 class="pt-5">Loaction</h5>
             <div class="row newsletter-border mx-0">
               <img class="col-auto mx-0 pb-2 px-0 w-auto" src="assets/images/iconly-light-location-white.svg" alt="">
-              <div class="col-auto px-0">
-                <!-- dropdown -->
-                <div class="col-6 dropdown">
+              <div class="col-auto px-0"> -->
+      <!-- dropdown -->
+      <!-- <div class="col-6 dropdown">
                   <button class="newsletter-placeholder bg-transparent border-0 dropdown-toggle pb-2 mb-1 ps-4"
                     type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
                     style="text-align:left ;">
@@ -1017,14 +1223,14 @@
                     <li><a class="dropdown-item" href="#">Sweden</a></li>
                   </ul>
                 </div>
-              </div>
-              <!-- <div class="col-6">
+              </div> -->
+      <!-- <div class="col-6">
                 <input class="newsletter-placeholder pb-2 mb-1" type="email" id="myEmail" placeholder="">
               </div> -->
-            </div>
+      <!-- </div> -->
 
-            <!-- Social media section -->
-            <h5 class="pb-3 pt-5">Follow us</h5>
+      <!-- Social media section -->
+      <!-- <h5 class="pb-3 pt-5">Follow us</h5>
             <div class="row mx-0">
               <div class="col-3 ps-0 w-auto">
                 <a href=""><img class="w-auto" src="assets/images/social-media-icons/facebook-icon.svg"
@@ -1052,8 +1258,8 @@
         <div class="row">
           <span class="footer-style footer-brown-border mb-3 pb-5 pt-2 px-0">Powered by <br> BigCommerce</span>
         </div>
-      </section>
-    </div>
+      </div> -->
+    </section>
   </footer>
 
 
