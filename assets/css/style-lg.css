@@ -5,4 +5,12 @@
   .overlap-image {
     width: 119%;
   }
+
+  .testimonialSwiper .swiper-slide-active .row{
+    justify-content: start !important;
+  }
+  
+  .testimonialSwiper .swiper-slide-active {
+    border-right: solid 1.5px var(--brown-text) ;
+  }
 }
